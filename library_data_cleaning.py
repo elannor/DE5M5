@@ -71,7 +71,7 @@ def library_cleaning_data(input_path: str, output_path: str=None) -> str:
     df.to_csv(output_path, index=False)
     export_to_sql(df, db_name="library_clean_data_2.db", table_name="cleaned_books")
 
-    engine = create_engine("sqlite:///library_clean_data_2.db")
+    engine = create_engine("sqlite:///library_clean_data.db")
 
     query = "SELECT * FROM cleaned_books"
     df_result = pd.read_sql(query, con=engine)
