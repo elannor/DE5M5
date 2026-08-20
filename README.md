@@ -12,3 +12,5 @@
 2. Create a venv using:```python -m venv venv'''
 3. Activate using: ```venv/Scripts/activate.ps1```  or the git bash equivalent if using. 
 4. Install the dependencies using: ```pip install -r requirements.txt```
+
+<img width="1900" height="765" alt="image" src="https://github.com/user-attachments/assets/26ff3c8e-e81a-4f38-88b3-5e2b68aab28f" />
